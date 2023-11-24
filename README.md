@@ -14,6 +14,6 @@
 
    # Projeto de Backend com Express  2
 
-Este é um projeto simples de backend usando Express para calcular o somatório de números divisíveis por 3 ou 5.
++ Este é um projeto simples de backend usando Express para calcular o somatório de números divisíveis por 3 ou 5.
 
 
