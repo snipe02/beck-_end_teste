@@ -1,8 +1,8 @@
 ##  *Instalação*  1
 
-## 1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
+## 1. Clone o repositório: `git clone "https://github.com/snipe02`
 ## 2. Navegue até o diretório do projeto: `cd seu-projeto`
-## 3. Instale as dependências: `npm install` ou `yarn install`
+## 3. Instale as dependências: `npm install` 'npm init -y' ou `yarn install`
 
 
 1 certifique-se, no seu terminal se aplicação esta rodando, "node index.js"
