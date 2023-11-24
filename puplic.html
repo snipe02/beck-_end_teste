@@ -1,0 +1,47 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Calculadora</title>
+</head>
+<body>
+  <h1>Bem-vindo à minha calculadora!</h1>
+  <form id="calculatorForm">
+    <label for="numero1">Digite o primeiro número:</label>
+    <input type="number" id="numero1" name="numero1" required>
+    <label for="numero2">Digite o segundo número:</label>
+    <input type="number" id="numero2" name="numero2" required>
+    <label for="operacao">Escolha a operação:</label>
+    <select id="operacao" name="operacao" required>
+      <option value="soma">Soma</option>
+      <!-- Adicione outras opções para subtração, multiplicação, divisão, etc. -->
+    </select>
+    <button type="submit">Calcular</button>
+  </form>
+  <div id="resultado"></div>
+  <script>
+    document.getElementById('calculatorForm').addEventListener('submit', async function(event) {
+      event.preventDefault();
+      const numero1 = parseFloat(document.getElementById('numero1').value);
+      const numero2 = parseFloat(document.getElementById('numero2').value);
+      const operacao = document.getElementById('operacao').value;
+
+      let resultado;
+
+      switch (operacao) {
+        case 'soma':
+          resultado = numero1 + numero2;
+          break;
+        // Adicione casos para outras operações aqui
+
+        default:
+          resultado = 'Operação não reconhecida';
+      }
+
+      document.getElementById('resultado').innerHTML = `Resultado: ${resultado}`;
+    });
+  </script>
+</body>
+</html>
