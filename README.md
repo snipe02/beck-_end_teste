@@ -5,8 +5,9 @@
 ## 3. Instale as dependências: `npm install` 'npm init -y' ou `yarn install`
 
 
-1 certifique-se, no seu terminal se aplicação esta rodando, "node index.js"
-2 vai para localhost:3000 para ver aplicação rodando.
++ 1 certifique-se, no seu terminal se aplicação esta rodando, "node index.js"
+
++ 2 vai para localhost:3000 para ver aplicação rodando.
 
 
 
